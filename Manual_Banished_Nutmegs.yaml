@@ -1,0 +1,192 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Manual_Banished_Nutmegs Template
+
+game: Manual_Banished_Nutmegs
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+
+Manual_Banished_Nutmegs:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  goal:
+    # Number of total citizens (adults + students + children) required for victory, and how many years, if any, to sustain it.
+    # 'Reach 300 Population' (default) is recommended, but you can lower it for a shorter game. Some checks will be excluded if you do.
+    # Listed roughly from most to least time taken to goal. 1 year adds approximately 10 minutes of game time if running at 10x speed.
+    # Any of these goals can be made easier/faster by starting on easy or medium difficulty.
+    # Settings lower than 300 will put a hard cap on the number of trades, if randomizing trades.
+    reach 300 population: 50
+    reach 200 population: 0
+    reach 100 population: 0
+    reach 50 population: 0
+    sustain 100 population for 10 years: 0
+    sustain 100 population for 5 years: 0
+    sustain 50 population for 10 years: 0
+    sustain 50 population for 5 years: 0
+
+  ####################
+  # Banished Options #
+  ####################
+  Start_Wood_Cutter:
+    # Wood Cutter will always appear in early checks, but if you'd rather start with it enabled, here you go.
+    'false': 50
+    'true': 0
+
+  Local_Wood_Cutter:
+    # Place Wood Cutter in your own world. In multiplayer especially, this will prevent early BK without the ability to hint.
+    # This option doesn't actually do anything at the moment, Wood Cutter is placed locally by default for now.
+    'false': 0
+    'true': 50
+
+  Start_Blacksmith:
+    # Blacksmith will always appear in early checks, but if you'd rather start with it enabled, here you go.
+    'false': 50
+    'true': 0
+
+  Start_Difficulty:
+    # The Banished in-game difficulty you intend to start on (defaults to Hard). Affects your starting AP items.
+    # Easy and medium grant immediate access to crops, orchards, and storage barns. Easy also grants immediate access to sheep and pasture.
+    # Easy and medium make the rando drastically more forgiving and are best suited for Banished beginners.
+    easy: 0
+    medium: 0
+    hard: 50
+
+  Randomize_Trades:
+    # Include locations where you have to trade with the trader, or not. This doesn't affect the 'Make Your First Trade' location.
+    'false': 0
+    'true': 50
+
+  Hint_Trades:
+    # If including seed/livestock trades, do you want the checks behind those trades hinted?
+    # Turning off these hints might mean trading a ton of your town's resources for not very useful items.
+    # However, keeping them on will reveal about 10% of your locations, which might be too spoilery for some.
+    'false': 0
+    'true': 50
+
+  Max_Seed_Trades:
+    # If randomizing trades, how many seed trade checks to include, from 1-16. Defaults to 8.
+    # Reach these locations by acquiring any seeds from the trader (repeats allowed).
+    # Note that each seed purchase is a randomized check, and doesn't give you the ability to plant that seed.
+    # Simulates the trade gameplay loop from the vanilla game.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 16
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-16: 0 # random value between 1 and 16
+
+  Max_Livestock_Trades:
+    # If randomizing trades, how many livestock trade checks to include, from 1-3. Defaults to 2.
+    # Reach these locations by acquiring a pair of animals from the trader.
+    # Simulates the trade gameplay loop from the vanilla game.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 3
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-3: 0 # random value between 1 and 3
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
