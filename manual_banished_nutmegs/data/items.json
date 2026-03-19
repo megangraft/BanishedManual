@@ -1,0 +1,485 @@
+[
+  {
+    "count": 1,
+    "name": "Stone House",
+    "category": [
+      "Buildings"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Boarding House",
+    "category": [
+      "Buildings"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Wooden Bridge",
+    "category": [
+      "Growth",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tunnel",
+    "category": [
+      "Travel"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Stone Road",
+    "category": [
+      "Travel"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dirt Road",
+    "category": [
+      "Travel"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Market",
+    "category": [
+      "Buildings",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Trading Post",
+    "category": [
+      "Buildings",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Storage Barn",
+    "category": [
+      "Growth",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Well",
+    "category": [
+      "Buildings"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "School House",
+    "category": [
+      "Buildings",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hospital",
+    "category": [
+      "Buildings",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Town Hall",
+    "category": [
+      "Buildings",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chapel",
+    "category": [
+      "Buildings",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cemetery",
+    "category": [
+      "Buildings"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Crop Field",
+    "category": [
+      "Food Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Orchard",
+    "category": [
+      "Food Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pasture",
+    "category": [
+      "Food Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Fishing Dock",
+    "category": [
+      "Food Production",
+      "Starting Food Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hunting Cabin",
+    "category": [
+      "Food Production",
+      "Starting Food Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Gatherers Hut",
+    "category": [
+      "Food Production",
+      "Starting Food Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wood Cutter",
+    "early": true,
+    "local": true,
+    "category": [
+      "Buildings",
+      "Growth",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Forester Lodge",
+    "category": [
+      "Buildings",
+      "Growth",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Herbalist",
+    "category": [
+      "Buildings",
+      "Resource Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blacksmith",
+    "category": [
+      "Buildings",
+      "Growth",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tailor",
+    "category": [
+      "Buildings",
+      "Resource Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tavern",
+    "category": [
+      "Buildings",
+      "Resource Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mine",
+    "category": [
+      "Buildings",
+      "Resource Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Quarry",
+    "category": [
+      "Buildings",
+      "Resource Production",
+      "Progressive Population"
+    ],
+    "progression": true
+  },
+  {
+    "count": "10",
+    "name": "50 Iron",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": "10",
+    "name": "50 Logs",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": "10",
+    "name": "50 Tools",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": "20",
+    "name": "1000 Food",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": "10",
+    "name": "50 Stone",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": "4",
+    "name": "25 Clothes",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": "4",
+    "name": "4 Citizens",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Cattle",
+    "category": [
+      "Trade Items - Livestock"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sheep",
+    "category": [
+      "Trade Items - Livestock"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chickens",
+    "category": [
+      "Trade Items - Livestock"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cabbage Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Corn Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Squash Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wheat Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pumpkin Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bean Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pepper Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Potato Seeds",
+    "category": [
+      "Trade Items - Crop Field"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Apple Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cherry Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Peach Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pear Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Plum Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chestnut Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pecan Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Walnut Seeds",
+    "category": [
+      "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": "20",
+    "name": "50 Firewood",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  }
+]

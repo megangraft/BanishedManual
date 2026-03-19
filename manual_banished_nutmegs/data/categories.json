@@ -1,0 +1,35 @@
+{
+	"Buildings": {
+		"hidden": false
+	},
+	"Growth": {
+		"hidden": true
+	},
+	"Progressive Population": {
+		"hidden": true
+	},
+	"Travel": {
+		"hidden": false
+	},
+	"Food Production": {
+		"hidden": false
+	},
+	"Starting Food Production": {
+		"hidden": true
+	},
+	"Resource Production": {
+		"hidden": true
+	},
+	"Resources": {
+		"hidden": false
+	},
+	"Trade Items - Livestock": {
+		"hidden": false
+	},
+	"Trade Items - Crop Field": {
+		"hidden": false
+	},
+	"Trade Items - Orchard": {
+		"hidden": false
+	}
+}

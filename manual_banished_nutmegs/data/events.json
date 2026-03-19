@@ -1,0 +1,20 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+    "data": [
+        {
+            "name": "Reach population 50",
+            "copy_location": "Reach population 50",
+            "visible": false
+        },
+        {
+            "name": "Reach population 100",
+            "copy_location": "Reach population 100",
+            "visible": false
+        },
+        {
+            "name": "Reach population 200",
+            "copy_location": "Reach population 200",
+            "visible": false
+        }
+    ]
+}

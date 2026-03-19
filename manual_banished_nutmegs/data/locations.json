@@ -1,0 +1,860 @@
+[
+  {
+    "name": "Reach 300 Population",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "200 Pop",
+    "_comment": "formerly 250 pop"
+  },
+  {
+    "name": "Reach 200 Population",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Reach 100 Population",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Reach 50 Population",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Sustain 100 Population for 10 Years",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Sustain 100 Population for 5 Years",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Sustain 50 Population for 10 Years",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Sustain 50 Population for 5 Years",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Reach population 50",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "Growth Stage 2"
+  },
+  {
+    "name": "Reach population 100",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Reach population 150",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "100 Pop"
+  },
+  {
+    "name": "Reach population 200",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Reach population 250",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Have 20 students in school",
+    "category": [
+      "Events"
+    ],
+    "requires": "|School House|",
+    "region": "200 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Produce Ale",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "(|Tavern| AND (|Gatherers Hut| OR (|Wheat Seeds| AND |Crop Field|) OR (|Orchard| AND (|Apple Seeds| OR |Plum Seeds| OR |Pear Seeds| OR |Peach Seeds| OR |Cherry Seeds|))))",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Coal",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Mine|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Steel Tools",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Mine| AND |Blacksmith|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Harvest 1 Field Crop",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Crop Field:1| AND |Crop Field|",
+    "region": "Blacksmith Stage"
+  },
+  {
+    "name": "Harvest 1 Orchard Crop",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Orchard:1| AND |Orchard|",
+    "region": "Blacksmith Stage"
+  },
+  {
+    "name": "Harvest 2 Field Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Crop Field:2| AND |Crop Field|",
+    "region": "Blacksmith Stage"
+  },
+  {
+    "name": "Harvest 2 Orchard Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Orchard:2| AND |Orchard|",
+    "region": "Blacksmith Stage"
+  },
+  {
+    "name": "Harvest 3 Field Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Crop Field:3| AND |Crop Field|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Harvest 3 Orchard Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Orchard:3| AND |Orchard|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Harvest 4 Field Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Crop Field:4| AND |Crop Field|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Harvest 4 Orchard Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Orchard:4| AND |Orchard|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Harvest 5 Field Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Crop Field:5| AND |Crop Field|",
+    "region": "Growth Stage 2"
+  },
+  {
+    "name": "Harvest 5 Orchard Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Orchard:5| AND |Orchard|",
+    "region": "Growth Stage 2"
+  },
+  {
+    "name": "Harvest 6 Field Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Crop Field:6| AND |Crop Field|",
+    "region": "Growth Stage 2"
+  },
+  {
+    "name": "Harvest 6 Orchard Crops",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|@Trade Items - Orchard:6| AND |Orchard|",
+    "region": "Growth Stage 2"
+  },
+  {
+    "name": "Produce Wool",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Pasture| AND |Sheep|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Venison",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Hunting Cabin|"
+  },
+  {
+    "name": "Produce Fish",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Fishing Dock|"
+  },
+  {
+    "name": "Produce Beef",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Cattle| AND |Pasture|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Leather",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Hunting Cabin| OR (|Cattle| AND |Pasture|)"
+  },
+  {
+    "name": "Produce Eggs",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Pasture| AND |Chickens|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Warm Coats",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "(|Tailor| AND (|Hunting Cabin| OR |Cattle|) AND |Pasture| AND |Sheep|)",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Wool Coats",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Pasture| AND |Sheep| AND |Tailor|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Chicken - Food",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Pasture| AND |Chickens|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Produce Mutton",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Pasture| AND |Sheep|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Gather Herbs",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Herbalist|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Gather 1 Gathering Food",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Gatherers Hut|"
+  },
+  {
+    "name": "Stock 1000 Firewood",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Stock 2000 Logs",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Stock 500 Stone",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "|Quarry|",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Stock 500 Iron",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "|Mine|",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Stock 200 Tools",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "|Mine|",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Stock 200 Coats",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "|Tailor| AND (|Hunting Cabin| OR (|Pasture| AND (|Cattle| OR |Sheep|)))",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Stock 20000 Food",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Employ Builder",
+    "category": [
+      "Employ"
+    ],
+    "requires": "",
+    "region": "Starting Families"
+  },
+  {
+    "name": "Employ Farmer",
+    "category": [
+      "Employ"
+    ],
+    "requires": "(|Crop Field| AND |@Trade Items - Crop Field:1|) OR (|Orchard| AND |@Trade Items - Orchard:1|)",
+    "region": "Blacksmith Stage"
+  },
+  {
+    "name": "Employ Herdsman",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Pasture| AND |@Trade Items - Livestock:1|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Gatherer",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Gatherers Hut|"
+  },
+  {
+    "name": "Employ Fisherman",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Fishing Dock|"
+  },
+  {
+    "name": "Employ Hunter",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Hunting Cabin|"
+  },
+  {
+    "name": "Employ Woodcutter",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Wood Cutter|",
+    "region": "Starting Families"
+  },
+  {
+    "name": "Employ Forester",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Forester Lodge|",
+    "region": "Blacksmith Stage"
+  },
+  {
+    "name": "Employ Herbalist",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Herbalist|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Blacksmith",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Blacksmith|"
+  },
+  {
+    "name": "Employ Brewer",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Tavern|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Tailor",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Tailor|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Vendor",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Market|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Trader",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Trading Post|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Miner",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Mine|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Stonecutter",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Quarry|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Teacher",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|School House|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Physician",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Hospital|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Employ Cleric",
+    "category": [
+      "Employ"
+    ],
+    "requires": "|Chapel|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Trade for Seeds - 1",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 2",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "100 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 3",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "100 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 4",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Trade for Seeds - 5",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "100 Pop",
+    "_comment": "formerly 150 pop"
+  },
+  {
+    "name": "Trade for Seeds - 6",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 7",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 8",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Livestock Pair - 1",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Trade for Livestock Pair - 2",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Trade for Livestock Pair - 3",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "100 Pop"
+  },
+  {
+    "name": "Construct a Wooden House",
+    "region": "Starting Families",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Construct a Stock Pile",
+    "region": "Starting Families",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Experience your towns first birth",
+    "region": "Starting Families",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Experience your towns first coming of age",
+    "region": "Starting Families",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Make your first trade",
+    "category": [
+      "Events"
+    ],
+    "requires": "|Trading Post|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Reach population 25",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Reach population 35",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Have 5 students at once",
+    "category": [
+      "Events"
+    ],
+    "requires": "|School House|",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Stock 75 Logs",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "",
+    "region": "Starting Families"
+  },
+  {
+    "name": "Stock 50 Herbs",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "|Herbalist|",
+    "region": "Growth Stage 2"
+  },
+  {
+    "name": "Stock 50 Coats",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "|Tailor| AND (|Hunting Cabin| OR (|Pasture| AND |Sheep|))",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Stock 75 Iron",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "",
+    "region": "Starting Families"
+  },
+  {
+    "name": "Stock 75 Stone",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "",
+    "region": "Starting Families"
+  },
+  {
+    "name": "Stock 50 Textiles",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "|Hunting Cabin| OR (|Pasture| AND (|Cattle| OR |Sheep|))",
+    "region": "Growth Stage 1"
+  },
+  {
+    "name": "Stock 3000 Food",
+    "category": [
+      "Stockpile"
+    ],
+    "requires": "",
+    "region": "50 Pop"
+  },
+  {
+    "name": "Produce Iron Tools",
+    "region": "Blacksmith Stage",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Blacksmith|"
+  },
+  {
+    "name": "Produce Hide Coats",
+    "region": "Growth Stage 1",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Tailor| AND (|Hunting Cabin| OR (|Pasture| AND |Cattle|))"
+  },
+  {
+    "name": "Produce Firewood",
+    "region": "Starting Families",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Wood Cutter|"
+  },
+  {
+    "name": "Mine Iron from a Mine",
+    "region": "Growth Stage 1",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Mine|"
+  },
+  {
+    "name": "Cut Stone from a Quarry",
+    "region": "Growth Stage 1",
+    "category": [
+      "Discoveries"
+    ],
+    "requires": "|Quarry|"
+  },
+  {
+    "name": "Trade for Seeds - 9",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 10",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 11",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 12",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 13",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 14",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 15",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Trade for Seeds - 16",
+    "category": [
+      "Trades"
+    ],
+    "requires": "|Trading Post|",
+    "region": "200 Pop"
+  }
+]
