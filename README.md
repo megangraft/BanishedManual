@@ -5,7 +5,7 @@ AP World and template YAML for manual Archipelago randomizer of Banished, a 2014
 - setup.en
 - other docs/
 - reduce win cons in YAML
-- fix early local setting for Wood Cutter in YAML
+- fix early local setting for Wood Cutter in YAML (right now it's always early, but Local should be toggleable)
 
 # Setup Guide
 See [setup guide] (I haven't written it yet)
