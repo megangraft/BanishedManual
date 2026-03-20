@@ -19,11 +19,11 @@ Achieve victory by hitting these total town population counts (adults + students
 
 # How progression works
 Progress in Banished by growing your citizen population! Some items are more crucial to this than others, so the item placement logic is organized into growth stages (regions), which progress roughly like this:
-Early game:
+Early game
 - Wood Cutter -> Blacksmith -> more food sources -> Forester Lodge/Wooden Bridge
-Mid game:
+Mid game
 - Storage Barn -> more food sources
-Late game:
+Late game
 - Mine/Trading Post
 The early game is the hardest part of the run, and you should expect a reset once or twice. Receiving items from the multiworld will make it easier to get your town off the ground! If your entire population dies, restart with all unlocks, including filler resources which you must redeem when possible (ie. when storage allows)
 
