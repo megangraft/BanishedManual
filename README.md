@@ -80,27 +80,39 @@ Livestock
 # FAQ
 Can I speed up my town to 10x? Can I pause my town?
 - Yeah of course
+
 Can I revert to an earlier save of my town during my playthrough?
 - Totally fine
+
 What do I do if I get 1000 Food from a check but I don’t have the storage for it?
 - You can wait until you have the storage space for it to redeem it; but once you have the space, you must redeem it.
+
 What do I do if I get 4 Citizens from a check but it would hurt my progress to redeem them?
 - The same rule applies to all filler resource checks: you must redeem them as soon as you have the storage space for them. There’s always room for more citizens in Archipelaville
+
 My town died and I started a fresh map. How and when do I redeem my filler resources?
 - At the start of your next map, build enough storage space for them, then use Debug Mod to redeem any resources sent to you so far.
+
 How can I tell if I’ve produced a resource or not?
 - The most reliable way is to click on the structure that produces that resource and tab over to the ↺ symbol on the tooltip. That will show you the production numbers by item for the previous year and current year.
+
 I traded a Trader for Bean Seeds, but I haven’t been sent Bean Seeds from the multiworld yet. Does that mean I can plant beans?
 - No! You can only ever plant seeds that have been sent to you from the multiworld.
+
 I accidentally traded a Trader for Bean Seeds, even though they’re useless because I don’t have Bean Seeds from the multiworld. Does that mean I just traded for nothing?
 - No! Seed trades are an important part of the Banished gameplay loop, and as such, each seed trade you make with the trader is a check location, up to 8 seed trades. Trading for the same seed twice is perfectly fine and contributes toward those 8 checks.
+
 How do the Livestock trade checks work?
 - To get the check, you must trade the Trader for 2 animals. This is because, in vanilla Banished, 2 animals are required to spawn more of that animal. So it mimics the cost from the core gameplay loop.
+
 I traded a Trader for 2 Sheep, but I haven’t received Sheep from the multiworld yet. Does this mean I can start raising Sheep?
 - No! If you don’t have both Sheep and Pasture, simply ignore the Sheep in the Trading Post pen until they despawn.
+
 Can I trade a Trader for resources other than seeds or livestock?
 - Yes! Outside of seeds and livestock the Trading Post functions like normal
+
 I accrued 500 Iron, but that check isn’t in logic yet. Why?
 - The stockpile checks have population requirements to balance out the fact that your surplus resources will be different each playthrough. Check back in once you hit another population check threshold, or send the check manually with `/send [Item Name]`
+
 I reached 50 Population, but that check isn't in logic yet. Why?
 - You are missing a required growth item - check the list in the "How Progression Works" section above
