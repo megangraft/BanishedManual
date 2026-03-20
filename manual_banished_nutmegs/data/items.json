@@ -20,7 +20,7 @@
     "name": "Wooden Bridge",
     "category": [
       "Growth",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -53,7 +53,7 @@
     "name": "Market",
     "category": [
       "Buildings",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -62,7 +62,7 @@
     "name": "Trading Post",
     "category": [
       "Buildings",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -71,7 +71,7 @@
     "name": "Storage Barn",
     "category": [
       "Growth",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -88,7 +88,7 @@
     "name": "School House",
     "category": [
       "Buildings",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -97,7 +97,7 @@
     "name": "Hospital",
     "category": [
       "Buildings",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -105,17 +105,16 @@
     "count": 1,
     "name": "Town Hall",
     "category": [
-      "Buildings",
-      "Progressive Population"
+      "Buildings"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": 1,
     "name": "Chapel",
     "category": [
       "Buildings",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -132,7 +131,7 @@
     "name": "Crop Field",
     "category": [
       "Food Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -141,7 +140,7 @@
     "name": "Orchard",
     "category": [
       "Food Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -150,7 +149,7 @@
     "name": "Pasture",
     "category": [
       "Food Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -160,7 +159,7 @@
     "category": [
       "Food Production",
       "Starting Food Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -170,7 +169,7 @@
     "category": [
       "Food Production",
       "Starting Food Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -180,7 +179,7 @@
     "category": [
       "Food Production",
       "Starting Food Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -192,7 +191,7 @@
     "category": [
       "Buildings",
       "Growth",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -202,7 +201,7 @@
     "category": [
       "Buildings",
       "Growth",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -212,7 +211,7 @@
     "category": [
       "Buildings",
       "Resource Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -222,7 +221,7 @@
     "category": [
       "Buildings",
       "Growth",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -232,7 +231,7 @@
     "category": [
       "Buildings",
       "Resource Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -242,7 +241,7 @@
     "category": [
       "Buildings",
       "Resource Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -252,7 +251,7 @@
     "category": [
       "Buildings",
       "Resource Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
@@ -262,7 +261,7 @@
     "category": [
       "Buildings",
       "Resource Production",
-      "Progressive Population"
+      "Progression Buildings"
     ],
     "progression": true
   },
