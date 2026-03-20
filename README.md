@@ -70,10 +70,10 @@ Filler Resources
 - Caution! If you redeem resources from Debug Mod without adequate storage space, you won't get the full amount. Logs/Stone/Firewood/Iron can be redeemed into Stock Piles. Food/Tools/Clothes can be redeemed into the starting Storage Cart or Storage Barns. Citizens can be redeemed immediately.
 
 Seeds
-- Debug Mod can give you access to all crop/orchard seeds (but don't use them til they've been sent to you, of course)
+- Use Debug Mod to "make all crop/orchard seeds available to player" (but don't use them until they've been sent to you, of course)
 
 Livestock
-- To redeem livestock, first build a Pasture (if unlocked), select the available animal type, and use Debug Mod to “add livestock to pastures." Debug Mod adds animals in increments of 5.
+- To redeem livestock, first use Debug Mod to "make all livestock available to player." Then: build a Pasture (if unlocked), select the available animal type, and use Debug Mod to “add livestock to pastures." Debug Mod adds animals in increments of 5.
 - Debug Mod’s “add livestock to pastures” button adds animals to ALL pastures as long as there is space in the pasture and an animal type has been picked. To keep it fair, make sure to keep your pastures empty without an animal selected until that animal is available.
 - OPTIONAL HOUSE RULE FOR PASTURES: you may only use Debug Mod to stock 1 pasture per animal type. Using Debug Mod to intentionally stock more than one pasture at once or to stock additional pastures with a duplicate animal type is not encouraged. Instead, use the vanilla "split" and "empty" to manage your pastures.
 
