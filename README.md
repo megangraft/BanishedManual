@@ -19,6 +19,7 @@ Achieve victory by hitting these total town population counts (adults + students
 
 # How progression works
 Progress in Banished by growing your citizen population! Some items are more crucial to this than others, so the item placement logic is organized into growth stages (regions), which progress roughly like this:
+
 Early game
 - Wood Cutter -> Blacksmith -> more food sources -> Forester Lodge/Wooden Bridge
 Mid game
