@@ -22,10 +22,13 @@ Progress in Banished by growing your citizen population! Some items are more cru
 
 Early game
 - Wood Cutter -> Blacksmith -> more food sources -> Forester Lodge/Wooden Bridge
+
 Mid game
 - Storage Barn -> more food sources
+
 Late game
 - Mine/Trading Post
+
 The early game is the hardest part of the run, and you should expect a reset once or twice. Receiving items from the multiworld will make it easier to get your town off the ground! If your entire population dies, restart with all unlocks, including filler resources which you must redeem when possible (ie. when storage allows)
 
 # Your loadout (Items)
