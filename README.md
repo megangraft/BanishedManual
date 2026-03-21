@@ -100,7 +100,7 @@ I traded a Trader for Bean Seeds, but I haven’t been sent Bean Seeds from the 
 - No! You can only ever plant seeds that have been sent to you from the multiworld.
 
 I accidentally traded a Trader for Bean Seeds, even though they’re useless because I don’t have Bean Seeds from the multiworld. Does that mean I just traded for nothing?
-- No! Seed trades are an important part of the Banished gameplay loop, and as such, each seed trade you make with the trader is a check location, up to 8 seed trades. Trading for the same seed twice is perfectly fine and contributes toward those 8 checks.
+- No! Seed trades are an important part of the Banished gameplay loop, and as such, each seed trade you make with the trader is a check location, up to 16 seed trades. Trading for the same seed twice is perfectly fine and contributes toward those checks. Unless, of course, you turned off the "Randomize Trades" option in your YAML. Then, yeah, ya traded for nothing D:
 
 How do the Livestock trade checks work?
 - To get the check, you must trade the Trader for 2 animals. This is because, in vanilla Banished, 2 animals are required to spawn more of that animal. So it mimics the cost from the core gameplay loop.
