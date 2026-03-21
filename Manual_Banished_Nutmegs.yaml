@@ -73,10 +73,6 @@ Manual_Banished_Nutmegs:
     reach 200 population: 0
     reach 100 population: 0
     reach 50 population: 0
-    sustain 100 population for 10 years: 0
-    sustain 100 population for 5 years: 0
-    sustain 50 population for 10 years: 0
-    sustain 50 population for 5 years: 0
 
   ####################
   # Banished Options #
