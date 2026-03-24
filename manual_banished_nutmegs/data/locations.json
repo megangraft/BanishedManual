@@ -38,48 +38,20 @@
     "region": "Growth Stage 1"
   },
   {
-    "name": "Sustain 100 Population for 10 Years",
-    "victory": true,
-    "category": [
-      "Victory"
-    ],
-    "requires": "",
-    "region": "50 Pop"
-  },
-  {
-    "name": "Sustain 100 Population for 5 Years",
-    "victory": true,
-    "category": [
-      "Victory"
-    ],
-    "requires": "",
-    "region": "50 Pop"
-  },
-  {
-    "name": "Sustain 50 Population for 10 Years",
-    "victory": true,
-    "category": [
-      "Victory"
-    ],
-    "requires": "",
-    "region": "Growth Stage 1"
-  },
-  {
-    "name": "Sustain 50 Population for 5 Years",
-    "victory": true,
-    "category": [
-      "Victory"
-    ],
-    "requires": "",
-    "region": "Growth Stage 1"
-  },
-  {
     "name": "Reach population 50",
     "category": [
       "Population"
     ],
     "requires": "",
     "region": "Growth Stage 2"
+  },
+  {
+    "name": "Reach population 75",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "50 Pop"
   },
   {
     "name": "Reach population 100",
@@ -90,7 +62,23 @@
     "region": "50 Pop"
   },
   {
+    "name": "Reach population 125",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "100 Pop"
+  },
+  {
     "name": "Reach population 150",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "100 Pop"
+  },
+  {
+    "name": "Reach population 175",
     "category": [
       "Population"
     ],
@@ -107,7 +95,23 @@
     "_comment": "formerly 150 pop"
   },
   {
+    "name": "Reach population 225",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "200 Pop"
+  },
+  {
     "name": "Reach population 250",
+    "category": [
+      "Population"
+    ],
+    "requires": "",
+    "region": "200 Pop"
+  },
+  {
+    "name": "Reach population 275",
     "category": [
       "Population"
     ],
@@ -126,7 +130,7 @@
   {
     "name": "Produce Ale",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "(|Tavern| AND (|Gatherers Hut| OR (|Wheat Seeds| AND |Crop Field|) OR (|Orchard| AND (|Apple Seeds| OR |Plum Seeds| OR |Pear Seeds| OR |Peach Seeds| OR |Cherry Seeds|))))",
     "region": "Growth Stage 1"
@@ -134,7 +138,7 @@
   {
     "name": "Produce Coal",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Mine|",
     "region": "Growth Stage 1"
@@ -142,7 +146,7 @@
   {
     "name": "Produce Steel Tools",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Mine| AND |Blacksmith|",
     "region": "Growth Stage 1"
@@ -150,7 +154,7 @@
   {
     "name": "Harvest 1 Field Crop",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Crop Field:1| AND |Crop Field|",
     "region": "Blacksmith Stage"
@@ -158,7 +162,7 @@
   {
     "name": "Harvest 1 Orchard Crop",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Orchard:1| AND |Orchard|",
     "region": "Blacksmith Stage"
@@ -166,7 +170,7 @@
   {
     "name": "Harvest 2 Field Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Crop Field:2| AND |Crop Field|",
     "region": "Blacksmith Stage"
@@ -174,7 +178,7 @@
   {
     "name": "Harvest 2 Orchard Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Orchard:2| AND |Orchard|",
     "region": "Blacksmith Stage"
@@ -182,7 +186,7 @@
   {
     "name": "Harvest 3 Field Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Crop Field:3| AND |Crop Field|",
     "region": "Growth Stage 1"
@@ -190,7 +194,7 @@
   {
     "name": "Harvest 3 Orchard Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Orchard:3| AND |Orchard|",
     "region": "Growth Stage 1"
@@ -198,7 +202,7 @@
   {
     "name": "Harvest 4 Field Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Crop Field:4| AND |Crop Field|",
     "region": "Growth Stage 1"
@@ -206,7 +210,7 @@
   {
     "name": "Harvest 4 Orchard Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Orchard:4| AND |Orchard|",
     "region": "Growth Stage 1"
@@ -214,7 +218,7 @@
   {
     "name": "Harvest 5 Field Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Crop Field:5| AND |Crop Field|",
     "region": "Growth Stage 2"
@@ -222,7 +226,7 @@
   {
     "name": "Harvest 5 Orchard Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Orchard:5| AND |Orchard|",
     "region": "Growth Stage 2"
@@ -230,7 +234,7 @@
   {
     "name": "Harvest 6 Field Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Crop Field:6| AND |Crop Field|",
     "region": "Growth Stage 2"
@@ -238,7 +242,7 @@
   {
     "name": "Harvest 6 Orchard Crops",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|@Trade Items - Orchard:6| AND |Orchard|",
     "region": "Growth Stage 2"
@@ -246,7 +250,7 @@
   {
     "name": "Produce Wool",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Pasture| AND |Sheep|",
     "region": "Growth Stage 1"
@@ -254,21 +258,21 @@
   {
     "name": "Produce Venison",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Hunting Cabin|"
   },
   {
     "name": "Produce Fish",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Fishing Dock|"
   },
   {
     "name": "Produce Beef",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Cattle| AND |Pasture|",
     "region": "Growth Stage 1"
@@ -276,14 +280,14 @@
   {
     "name": "Produce Leather",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Hunting Cabin| OR (|Cattle| AND |Pasture|)"
   },
   {
     "name": "Produce Eggs",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Pasture| AND |Chickens|",
     "region": "Growth Stage 1"
@@ -291,7 +295,7 @@
   {
     "name": "Produce Warm Coats",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "(|Tailor| AND (|Hunting Cabin| OR |Cattle|) AND |Pasture| AND |Sheep|)",
     "region": "Growth Stage 1"
@@ -299,7 +303,7 @@
   {
     "name": "Produce Wool Coats",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Pasture| AND |Sheep| AND |Tailor|",
     "region": "Growth Stage 1"
@@ -307,7 +311,7 @@
   {
     "name": "Produce Chicken - Food",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Pasture| AND |Chickens|",
     "region": "Growth Stage 1"
@@ -315,7 +319,7 @@
   {
     "name": "Produce Mutton",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Pasture| AND |Sheep|",
     "region": "Growth Stage 1"
@@ -323,7 +327,7 @@
   {
     "name": "Gather Herbs",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Herbalist|",
     "region": "Growth Stage 1"
@@ -331,7 +335,7 @@
   {
     "name": "Gather 1 Gathering Food",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Gatherers Hut|"
   },
@@ -634,7 +638,7 @@
     "region": "100 Pop"
   },
   {
-    "name": "Construct a Wooden House",
+    "name": "Build a Wooden House",
     "region": "Starting Families",
     "category": [
       "Events"
@@ -642,7 +646,7 @@
     "requires": ""
   },
   {
-    "name": "Construct a Stock Pile",
+    "name": "Build a Stock Pile",
     "region": "Starting Families",
     "category": [
       "Events"
@@ -660,6 +664,54 @@
   {
     "name": "Experience your towns first coming of age",
     "region": "Starting Families",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survive Winter 1",
+    "region": "Starting Families",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survive Winter 2",
+    "region": "Blacksmith Stage",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survive Winter 3",
+    "region": "Blacksmith Stage",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survive Winter 4",
+    "region": "Blacksmith Stage",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survive Winter 5",
+    "region": "Growth Stage 1",
+    "category": [
+      "Events"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survive Winter 10",
+    "region": "Growth Stage 2",
     "category": [
       "Events"
     ],
@@ -757,7 +809,7 @@
     "name": "Produce Iron Tools",
     "region": "Blacksmith Stage",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Blacksmith|"
   },
@@ -765,7 +817,7 @@
     "name": "Produce Hide Coats",
     "region": "Growth Stage 1",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Tailor| AND (|Hunting Cabin| OR (|Pasture| AND |Cattle|))"
   },
@@ -773,7 +825,7 @@
     "name": "Produce Firewood",
     "region": "Starting Families",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Wood Cutter|"
   },
@@ -781,7 +833,7 @@
     "name": "Mine Iron from a Mine",
     "region": "Growth Stage 1",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Mine|"
   },
@@ -789,7 +841,7 @@
     "name": "Cut Stone from a Quarry",
     "region": "Growth Stage 1",
     "category": [
-      "Discoveries"
+      "Resource Production"
     ],
     "requires": "|Quarry|"
   },

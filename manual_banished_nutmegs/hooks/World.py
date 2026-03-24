@@ -51,26 +51,27 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
-    locationNamesToRemove: list[str] = [] # List of location names
+    location_names_to_remove: list[str] = [] # List of location names
 
     randomize_trades = get_option_value(multiworld, player, "Randomize_Trades")
     max_seed_trades = get_option_value(multiworld, player, "Max_Seed_Trades")
     max_livestock_trades = get_option_value(multiworld, player, "Max_Livestock_Trades")
     win_con = get_option_value(multiworld, player, "goal")
+    start_difficulty = get_option_value(multiworld, player, "Start_Difficulty")
 
     # if not randomizing trades, removes all locations in the Trades category
     # if randomizing trades, removes all locations beyond the number of locations specified in max trades options
     if not randomize_trades:
-        locationNamesToRemove.extend([
+        location_names_to_remove.extend([
             name for name, l in world.location_name_to_location.items()
                 if "Trades" in l.get('category', [])
         ])
     else:
-        locationNamesToRemove.extend([
+        location_names_to_remove.extend([
             name for name, l in world.location_name_to_location.items()
                 if ("Trades" in l.get('category', []) and "Trade for Seeds" in name and int(name.split("- ")[-1]) > max_seed_trades) # caps number of seeds trades at range specified in YAML
         ])
-        locationNamesToRemove.extend([
+        location_names_to_remove.extend([
             name for name, l in world.location_name_to_location.items()
                 if ("Trades" in l.get('category', []) and "Trade for Livestock Pair" in name and int(name.split("- ")[-1]) > max_livestock_trades) # caps number of livestock trades at range specified in YAML
         ])
@@ -78,30 +79,35 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # removes locations tied to population regions if lowering the goal population
     # also removes the equivalent location in the Population category (eg. if goal is Reach Population 50, it uses the Victory location, and removes the Population location)
     if win_con == 1: # reach 200 population
-        locationNamesToRemove.extend([
+        location_names_to_remove.extend([
             name for name, l in world.location_name_to_location.items()
-                if l.get('region', "") in ("250 Pop", "200 Pop")
+                if l.get('region', "") in ("200 Pop")
         ])
-        locationNamesToRemove.extend(["Reach population 200"])
-    elif win_con in (2,4,5): # goals with 100 population
-        locationNamesToRemove.extend([
+        location_names_to_remove.extend(["Reach population 200"])
+    elif win_con == 2: # reach 100 population
+        location_names_to_remove.extend([
             name for name, l in world.location_name_to_location.items()
-                if l.get('region', "") in ("250 Pop", "200 Pop", "150 Pop", "100 Pop")
+                if l.get('region', "") in ("200 Pop", "100 Pop")
         ])
-        locationNamesToRemove.extend(["Reach population 100"])
-    elif win_con in (3,6,7): # goals with 50 population
-        locationNamesToRemove.extend([
+        location_names_to_remove.extend(["Reach population 100"])
+    elif win_con == 3: # reach 50 population
+        location_names_to_remove.extend([
             name for name, l in world.location_name_to_location.items()
-                if l.get('region', "") in ("250 Pop", "200 Pop", "150 Pop", "100 Pop", "50 Pop")
+                if l.get('region', "") in ("200 Pop", "100 Pop", "50 Pop")
         ])
-        locationNamesToRemove.extend(["Reach population 50"])
+        location_names_to_remove.extend(["Reach population 50"])
 
-    logging.info("Location names to remove is " + str(locationNamesToRemove))
+    # remove starting stockpile checks at easy and medium difficulties, because you already start with the checks done or mostly done
+    if start_difficulty == 0 or start_difficulty == 1:
+        location_names_to_remove.extend([
+            name for name, l in world.location_name_to_location.items()
+                if l.get('region', "") == "Starting Families" and "Stockpile" in l.get('category', [])
+        ])
 
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-                if location.name in locationNamesToRemove:
+                if location.name in location_names_to_remove:
                     region.locations.remove(location)
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
@@ -113,41 +119,18 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+
+    local_wood_cutter = get_option_value(multiworld, player, "Local_Wood_Cutter")
+    start_wood_cutter = get_option_value(multiworld, player, "Start_Wood_Cutter")
+
+    # if using option to place Wood Cutter local, then make it so
+    if local_wood_cutter and not start_wood_cutter:
+        world.options.local_items.value.add("Wood Cutter")
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-
-    win_con = get_option_value(multiworld, player, "goal")
-
-    logging.info("The win con is " + str(win_con))
-
-    item_names_to_remove = []
-
-    # if using a win con with 50 population, remove any progressive population items 
-    if win_con in (3,6,7):
-        item_names_to_remove.extend([
-            name for name, i in world.item_name_to_item.items()
-                if "Progressive Population" in i.get('category', [])
-        ])
-    # if using a win con with 100 population, remove any progressive population items, except for the 50 population one
-    elif win_con in (2,4,5):
-        item_names_to_remove.extend([
-            name for name, i in world.item_name_to_item.items()
-                if ("Progressive Population" in i.get('category', []) and name != "New Goal - Reach 100 Population")
-        ])
-    elif win_con == 1:
-        item_names_to_remove.extend([
-            name for name, i in world.item_name_to_item.items()
-                if name in ("New Goal - Reach 250 Population", "New Goal - Reach 300 Population")
-        ])
-
-    # finally, we set the item pool to be all of the items that don't have names in that list to remove
-    item_pool = [
-        i for i in item_pool if i.name not in item_names_to_remove
-    ]
-
-    logging.info("Item names to remove is " + str(item_names_to_remove))
 
     return item_pool
 
@@ -340,13 +323,14 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
-    locationNamesToHint: list[str] = [] # List of location names
+    location_names_to_hint: list[str] = [] # List of location names
 
     randomize_trades = get_option_value(multiworld, player, "Randomize_Trades")
     hint_trades = get_option_value(multiworld, player, "Hint_Trades")
+    start_wood_cutter = get_option_value(multiworld, player, "Start_Wood_Cutter")
 
     if hint_trades and randomize_trades:
-        locationNamesToHint.extend([
+        location_names_to_hint.extend([
             name for name, l in world.location_name_to_location.items()
                 if "Trades" in l.get('category', [])
         ])
@@ -354,8 +338,9 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-                if location.name in locationNamesToHint:
+                if location.name in location_names_to_hint:
                     world.options.start_location_hints.value.add(location.name)
+
     pass
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
