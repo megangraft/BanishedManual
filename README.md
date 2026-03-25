@@ -111,8 +111,8 @@ Can I trade a Trader for resources other than seeds or livestock?
 I accrued 500 Iron, but that check isn’t in logic yet. Why?
 - The stockpile checks have population requirements to balance out the fact that your surplus resources will be different each playthrough. Check back in once you hit another population check threshold, or send the check out of logic with `/send [Item Name]`
 
-I reached 50 Population, but that check isn't in logic yet. Why? if you
-- You are missing a required growth item for it to be in logic yet - check the list in the "How Progression Works" section above. You can always send the check out of logic with `/send [Item Name]` if you so choose
+I reached 50 Population, but that check isn't in logic yet. Why?
+- You are missing a required progression item(s) for it to be in logic yet - check the list in the "How Progression Works" section above. You can always send the check out of logic with `/send [Item Name]` if you so choose
 
 # To-do's and future ideas
 To do:
