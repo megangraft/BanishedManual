@@ -64,9 +64,8 @@ Manual_Banished_Nutmegs:
     minimal: 0
 
   goal:
-    # Number of total citizens (adults + students + children) required for victory, and how many years, if any, to sustain it.
+    # Number of total citizens (adults + students + children) required for victory
     # 'Reach 300 Population' (default) is recommended, but you can lower it for a shorter game. Some checks will be excluded if you do.
-    # Listed roughly from most to least time taken to goal. 1 year adds approximately 10 minutes of game time if running at 10x speed.
     # Any of these goals can be made easier/faster by starting on easy or medium difficulty.
     # Settings lower than 300 will put a hard cap on the number of trades, if randomizing trades.
     reach 300 population: 50
@@ -83,8 +82,7 @@ Manual_Banished_Nutmegs:
     'true': 0
 
   Local_Wood_Cutter:
-    # Place Wood Cutter in your own world. In multiplayer especially, this will prevent early BK without the ability to hint.
-    # This option doesn't actually do anything at the moment, Wood Cutter is placed locally by default for now.
+    # Place Wood Cutter in your own world. In multiplayer, this will prevent early BK without the ability to hint.
     'false': 0
     'true': 50
 

@@ -7,36 +7,42 @@
     "starting": true
   },
   "Blacksmith Stage": {
+    "_comment": "We wouldn't expect the player to progress beyond 2-3 years without a renewable tool source, so this is a region to push Blacksmith early without explicitly placing the item early.",
     "connects_to": [
       "Growth Stage 1"
     ],
     "requires": "|Wood Cutter| AND |Blacksmith|"
   },
   "Growth Stage 1": {
+    "_comment": "To grow beyond ~30 population or so you'll require at least 2 food sources and a way to access more logs (Forester or Bridge).",
     "connects_to": [
       "Growth Stage 2"
     ],
     "requires": "((|@Trade Items - Crop Field:1| AND |Crop Field|) OR (|@Trade Items - Orchard:1| AND |Orchard|) OR (|@Trade Items - Livestock:1| AND |Pasture|) OR |@Starting Food Production:2|) AND (|Wooden Bridge| OR |Forester Lodge|) AND |Wood Cutter| AND |Blacksmith|"
   },
   "Growth Stage 2": {
+    "_comment": "Every crucial item to stablize and grow your town. Reaching 50 population enters logic at this stage.",
     "connects_to": [
       "50 Pop"
     ],
     "requires": "((|@Trade Items - Crop Field:1| AND |Crop Field|) OR (|@Trade Items - Orchard:1| AND |Orchard|) OR (|@Trade Items - Livestock:1| AND |Pasture|) OR |@Starting Food Production:2|) AND |Forester Lodge| AND |Wood Cutter| AND |Blacksmith| AND |Wooden Bridge| AND |Storage Barn|"
   },
   "50 Pop": {
+    "_comment": "Very similar to Growth Stage 2, but requires a third Starting Food building if the player only has two with no farming sources. Reaching population 100 enters logic at this stage.",
     "connects_to": [
       "100 Pop"
     ],
     "requires": "((|@Trade Items - Crop Field:1| AND |Crop Field|) OR (|@Trade Items - Orchard:1| AND |Orchard|) OR (|@Trade Items - Livestock:1| AND |Pasture|) OR |@Starting Food Production:3|) AND |Forester Lodge| AND |Wood Cutter| AND |Blacksmith| AND |Wooden Bridge| AND |Storage Barn|"
   },
   "100 Pop": {
+    "_comment": "To progress beyond 100 population the player will need a renewable source of tools: either Mine (for iron) or Trading Post (for tools) is required. Getting enough iron from the map starts to become a concern around 150-200.",
     "connects_to": [
       "200 Pop"
     ],
     "requires": "|@Progression Buildings:12| AND (|Mine| OR |Trading Post|) AND ((|@Trade Items - Crop Field:1| AND |Crop Field|) OR (|@Trade Items - Orchard:1| AND |Orchard|) OR (|@Trade Items - Livestock:1| AND |Pasture|) OR |@Starting Food Production:3|) AND |Forester Lodge| AND |Wood Cutter| AND |Blacksmith| AND |Wooden Bridge| AND |Storage Barn|"
   },
   "200 Pop": {
+    "_comment": "Mostly exists to keep the 300 victory from going into logic at 100 population. At this point the player will have all but 6 Progression Buildings.",
     "connects_to": [],
     "requires": "|@Progression Buildings:15| AND (|Mine| OR |Trading Post|) AND ((|@Trade Items - Crop Field:1| AND |Crop Field|) OR (|@Trade Items - Orchard:1| AND |Orchard|) OR (|@Trade Items - Livestock:1| AND |Pasture|) OR |@Starting Food Production:3|) AND |Forester Lodge| AND |Wood Cutter| AND |Blacksmith| AND |Wooden Bridge| AND |Storage Barn|"
   }

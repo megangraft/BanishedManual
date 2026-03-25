@@ -187,7 +187,6 @@
     "count": 1,
     "name": "Wood Cutter",
     "early": true,
-    "local": true,
     "category": [
       "Buildings",
       "Growth",
