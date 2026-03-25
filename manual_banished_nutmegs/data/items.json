@@ -265,7 +265,7 @@
     "progression": true
   },
   {
-    "count": "10",
+    "count": "5",
     "name": "50 Iron",
     "category": [
       "Resources"
@@ -273,7 +273,7 @@
     "filler": true
   },
   {
-    "count": "10",
+    "count": "5",
     "name": "50 Logs",
     "category": [
       "Resources"
@@ -282,6 +282,14 @@
   },
   {
     "count": "10",
+    "name": "50 Firewood",
+    "category": [
+      "Resources"
+    ],
+    "filler": true
+  },
+  {
+    "count": "5",
     "name": "50 Tools",
     "category": [
       "Resources"
@@ -289,7 +297,7 @@
     "filler": true
   },
   {
-    "count": "20",
+    "count": "10",
     "name": "1000 Food",
     "category": [
       "Resources"
@@ -297,7 +305,7 @@
     "filler": true
   },
   {
-    "count": "10",
+    "count": "5",
     "name": "50 Stone",
     "category": [
       "Resources"
@@ -305,7 +313,7 @@
     "filler": true
   },
   {
-    "count": "4",
+    "count": "2",
     "name": "25 Clothes",
     "category": [
       "Resources"
@@ -313,7 +321,7 @@
     "filler": true
   },
   {
-    "count": "4",
+    "count": "2",
     "name": "4 Citizens",
     "category": [
       "Resources"
@@ -471,13 +479,5 @@
       "Trade Items - Orchard"
     ],
     "progression": true
-  },
-  {
-    "count": "20",
-    "name": "50 Firewood",
-    "category": [
-      "Resources"
-    ],
-    "filler": true
   }
 ]
