@@ -1,10 +1,8 @@
 # Banished Manual
 AP World and template YAML for manual Archipelago randomizer of Banished, a 2014 colony survival sim game
 
-# Todo's
-- setup.en
-- other docs/
-- update to latest Manual Stable release
+# Preface
+- This repo is a work in progress! Scroll to the bottom of this readme for a list of todo's and ideas for the future.
 
 # Setup Guide
 See [setup guide] (I haven't written it yet)
@@ -115,3 +113,38 @@ I accrued 500 Iron, but that check isn’t in logic yet. Why?
 
 I reached 50 Population, but that check isn't in logic yet. Why? if you
 - You are missing a required growth item for it to be in logic yet - check the list in the "How Progression Works" section above. You can always send the check out of logic with `/send [Item Name]` if you so choose
+
+# To-do's and future ideas
+To do:
+- setup.en
+- other docs/
+- update to latest Manual Stable release
+- Sort locations so things show up cleaner in the Spoiler text
+- Add releases
+- Make compatible with Manual community guidelines
+
+Future ideas:
+- Add checks for building more than 1 of things?
+  - Eg 4 wooden houses, 10 houses…
+  - Build 3 food production
+- Consider adjusting logic so the player isn’t stuck with thousands of leather and nowhere to store it at any point
+  - Leather overload solutions: Tailor, Trading Post, Storage Barn
+  - How leather overload happens:
+    - If Starting Food Production is Hunting Cabin and you don’t have an overload solution
+    - If Cattle + Pasture is one of your food sources and you don’t have an overload solution
+- Consider lowering the 200 pop region to 150, putting 300 Victory in logic earlier
+- Add 400 goal?
+- Disastersanity - Roguelike style early progression?
+  - Start with disasters, mountainous terrain, and harsh climate turned on, and receive progressive items to ease the settings
+  - Maybe also include progressive difficulty and map size?
+- Add Trap filler items - disasters?
+  - With YAML setting to toggle
+- Death Link. Ideas:
+  - Roll for disaster!
+  - Destroy a building
+  - Disable work at a food source for 1 year
+  - Sending deathlinks: losing your entire population, reverting to earlier saves
+- Debug Modless - go true modless and drastically reduce the number of checks to account for inability to grant yourself resources
+  - This kind of breaks the whole thing, so probably not implementing it, might be better implemented as an entirely separate APWorld
+  - The only way to get crop seeds/animals in a modless version would be the trader
+
