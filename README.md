@@ -124,6 +124,12 @@ To do:
 - Make compatible with Manual community guidelines
 
 Future ideas:
+- YAML setting to control filler resources
+  - Going back and forth on whether to force a balanced spread of the 8 filler resources, or let the the world gen several "Resource of Choice" filler
+  - We could let the player decide with YAML options:
+    - Include wildcard resource filler? Yes or no
+      - If no: increase number of other filler with a hook during gen
+      - If yes: change nothing
 - Add checks for building more than 1 of things?
   - Eg 4 wooden houses, 10 houses…
   - Build 3 food production
