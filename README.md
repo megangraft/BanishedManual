@@ -122,6 +122,7 @@ To do:
 - Sort locations so things show up cleaner in the Spoiler text
 - Add releases
 - Make compatible with Manual community guidelines
+- Fix issue where Resource Production locations are hidden from Manual client
 
 Future ideas:
 - YAML setting to control filler resources
