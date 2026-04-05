@@ -123,8 +123,10 @@ To do:
 - Add releases
 - Make compatible with Manual community guidelines
 - Fix issue where Resource Production locations are hidden from Manual client
+- Put Wooden Bridge in a visible category
 
 Future ideas:
+- YAML setting to include Orchard in logic as a source of logs
 - YAML setting to control filler resources
   - Going back and forth on whether to force a balanced spread of the 8 filler resources, or let the the world gen several "Resource of Choice" filler
   - We could let the player decide with YAML options:
