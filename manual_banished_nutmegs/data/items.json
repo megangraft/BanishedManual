@@ -20,7 +20,8 @@
     "name": "Wooden Bridge",
     "category": [
       "Growth",
-      "Progression Buildings"
+      "Progression Buildings",
+      "Travel"
     ],
     "progression": true
   },
