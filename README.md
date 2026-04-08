@@ -1,11 +1,8 @@
 # Banished Manual
 AP World and template YAML for manual Archipelago randomizer of Banished, a 2014 colony survival sim game
 
-# Todo's
-- setup.en
-- other docs/
-- update to latest Manual Stable release
-- fix early local setting for Wood Cutter in YAML (right now it's always early, but Local should be toggleable)
+# Preface
+- This repo is a work in progress! Scroll to the bottom of this readme for a list of todo's and ideas for the future.
 
 # Setup Guide
 See [setup guide] (I haven't written it yet)
@@ -114,5 +111,49 @@ Can I trade a Trader for resources other than seeds or livestock?
 I accrued 500 Iron, but that check isn’t in logic yet. Why?
 - The stockpile checks have population requirements to balance out the fact that your surplus resources will be different each playthrough. Check back in once you hit another population check threshold, or send the check out of logic with `/send [Item Name]`
 
-I reached 50 Population, but that check isn't in logic yet. Why? if you
-- You are missing a required growth item for it to be in logic yet - check the list in the "How Progression Works" section above. You can always send the check out of logic with `/send [Item Name]` if you so choose
+I reached 50 Population, but that check isn't in logic yet. Why?
+- You are missing a required progression item(s) for it to be in logic yet - check the list in the "How Progression Works" section above. You can always send the check out of logic with `/send [Item Name]` if you so choose
+
+# To-do's and future ideas
+To do:
+- setup.en
+- other docs/
+- update to latest Manual Stable release
+- Sort locations so things show up cleaner in the Spoiler text
+- Add releases
+- Make compatible with Manual community guidelines
+- Fix issue where Resource Production locations are hidden from Manual client
+- Put Wooden Bridge in a visible category
+
+Future ideas:
+- YAML setting to include Orchard in logic as a source of logs
+- YAML setting to control filler resources
+  - Going back and forth on whether to force a balanced spread of the 8 filler resources, or let the the world gen several "Resource of Choice" filler
+  - We could let the player decide with YAML options:
+    - Include wildcard resource filler? Yes or no
+      - If no: increase number of other filler with a hook during gen
+      - If yes: change nothing
+- Add checks for building more than 1 of things?
+  - Eg 4 wooden houses, 10 houses…
+  - Build 3 food production
+- Consider adjusting logic so the player isn’t stuck with thousands of leather and nowhere to store it at any point
+  - Leather overload solutions: Tailor, Trading Post, Storage Barn
+  - How leather overload happens:
+    - If Starting Food Production is Hunting Cabin and you don’t have an overload solution
+    - If Cattle + Pasture is one of your food sources and you don’t have an overload solution
+- Consider lowering the 200 pop region to 150, putting 300 Victory in logic earlier
+- Add 400 goal?
+- Disastersanity - Roguelike style early progression?
+  - Start with disasters, mountainous terrain, and harsh climate turned on, and receive progressive items to ease the settings
+  - Maybe also include progressive difficulty and map size?
+- Add Trap filler items - disasters?
+  - With YAML setting to toggle
+- Death Link. Ideas:
+  - Roll for disaster!
+  - Destroy a building
+  - Disable work at a food source for 1 year
+  - Sending deathlinks: losing your entire population, reverting to earlier saves
+- Debug Modless - go true modless and drastically reduce the number of checks to account for inability to grant yourself resources
+  - This kind of breaks the whole thing, so probably not implementing it, might be better implemented as an entirely separate APWorld
+  - The only way to get crop seeds/animals in a modless version would be the trader
+
