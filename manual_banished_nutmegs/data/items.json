@@ -20,7 +20,8 @@
     "name": "Wooden Bridge",
     "category": [
       "Growth",
-      "Progression Buildings"
+      "Progression Buildings",
+      "Travel"
     ],
     "progression": true
   },
@@ -265,7 +266,7 @@
     "progression": true
   },
   {
-    "count": "5",
+    "count": "7",
     "name": "50 Iron",
     "category": [
       "Resources"
@@ -273,7 +274,7 @@
     "filler": true
   },
   {
-    "count": "5",
+    "count": "7",
     "name": "50 Logs",
     "category": [
       "Resources"
@@ -281,7 +282,7 @@
     "filler": true
   },
   {
-    "count": "10",
+    "count": "13",
     "name": "50 Firewood",
     "category": [
       "Resources"
@@ -289,7 +290,7 @@
     "filler": true
   },
   {
-    "count": "5",
+    "count": "7",
     "name": "50 Tools",
     "category": [
       "Resources"
@@ -297,7 +298,7 @@
     "filler": true
   },
   {
-    "count": "10",
+    "count": "13",
     "name": "1000 Food",
     "category": [
       "Resources"
@@ -305,7 +306,7 @@
     "filler": true
   },
   {
-    "count": "5",
+    "count": "7",
     "name": "50 Stone",
     "category": [
       "Resources"
@@ -313,7 +314,7 @@
     "filler": true
   },
   {
-    "count": "2",
+    "count": "3",
     "name": "25 Clothes",
     "category": [
       "Resources"
@@ -321,7 +322,7 @@
     "filler": true
   },
   {
-    "count": "2",
+    "count": "3",
     "name": "4 Citizens",
     "category": [
       "Resources"
@@ -477,6 +478,38 @@
     "name": "Walnut Seeds",
     "category": [
       "Trade Items - Orchard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Progressive Disaster Relief - Disable Tornadoes",
+    "category": [
+      "Progressive Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Progressive Disaster Relief - Disable Fires",
+    "category": [
+      "Progressive Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Progressive Disaster Relief - Disable Diseases",
+    "category": [
+      "Progressive Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Progressive Disaster Relief - Disable Infestations",
+    "category": [
+      "Progressive Difficulty"
     ],
     "progression": true
   }
