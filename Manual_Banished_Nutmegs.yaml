@@ -99,6 +99,11 @@ Manual_Banished_Nutmegs:
     medium: 0
     hard: 50
 
+  Randomize_Disaster_Relief:
+    # Start with Disasters 'On' when creating your town and randomize 4 items that let you disable each disaster via Debug Mod.
+    'false': 50
+    'true': 0
+
   Randomize_Trades:
     # Include locations where you have to trade with the trader, or not. This doesn't affect the 'Make Your First Trade' location.
     'false': 0

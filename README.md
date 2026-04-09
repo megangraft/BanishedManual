@@ -65,6 +65,7 @@ Filler Resources
   - Tools: 50
   - Citizens: 4
 - Caution! If you redeem resources from Debug Mod without adequate storage space, you won't get the full amount. Logs/Stone/Firewood/Iron can be redeemed into Stock Piles. Food/Tools/Clothes can be redeemed into the starting Storage Cart or Storage Barns. Citizens can be redeemed immediately.
+- Use the handy "Banished AP Filler Resource Tracker" template included in this repo to track how many of each filler item you've already redeemed in your town save
 
 Seeds
 - Use Debug Mod to "make all crop/orchard seeds available to player" (but don't use them until they've been sent to you, of course)
@@ -122,8 +123,6 @@ To do:
 - Sort locations so things show up cleaner in the Spoiler text
 - Add releases
 - Make compatible with Manual community guidelines
-- Fix issue where Resource Production locations are hidden from Manual client
-- Put Wooden Bridge in a visible category
 
 Future ideas:
 - YAML setting to include Orchard in logic as a source of logs
@@ -143,9 +142,6 @@ Future ideas:
     - If Cattle + Pasture is one of your food sources and you don’t have an overload solution
 - Consider lowering the 200 pop region to 150, putting 300 Victory in logic earlier
 - Add 400 goal?
-- Disastersanity - Roguelike style early progression?
-  - Start with disasters, mountainous terrain, and harsh climate turned on, and receive progressive items to ease the settings
-  - Maybe also include progressive difficulty and map size?
 - Add Trap filler items - disasters?
   - With YAML setting to toggle
 - Death Link. Ideas:

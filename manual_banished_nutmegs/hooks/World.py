@@ -53,11 +53,19 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     location_names_to_remove: list[str] = [] # List of location names
 
+    randomize_disasters = get_option_value(multiworld, player, "Randomize_Disaster_Relief")
     randomize_trades = get_option_value(multiworld, player, "Randomize_Trades")
     max_seed_trades = get_option_value(multiworld, player, "Max_Seed_Trades")
     max_livestock_trades = get_option_value(multiworld, player, "Max_Livestock_Trades")
     win_con = get_option_value(multiworld, player, "goal")
     start_difficulty = get_option_value(multiworld, player, "Start_Difficulty")
+
+    # if not randomizing disaster relief, removes all items in the Progressive Difficulty category
+    if not randomize_disasters:
+        location_names_to_remove.extend([
+            name for name, l in world.location_name_to_location.items()
+                if "Progressive Difficulty" in l.get('category', [])
+        ])
 
     # if not randomizing trades, removes all locations in the Trades category
     # if randomizing trades, removes all locations beyond the number of locations specified in max trades options

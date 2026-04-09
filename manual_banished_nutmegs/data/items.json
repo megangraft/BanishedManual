@@ -210,7 +210,6 @@
     "name": "Herbalist",
     "category": [
       "Buildings",
-      "Resource Production",
       "Progression Buildings"
     ],
     "progression": true
@@ -230,7 +229,6 @@
     "name": "Tailor",
     "category": [
       "Buildings",
-      "Resource Production",
       "Progression Buildings"
     ],
     "progression": true
@@ -240,7 +238,6 @@
     "name": "Tavern",
     "category": [
       "Buildings",
-      "Resource Production",
       "Progression Buildings"
     ],
     "progression": true
@@ -250,7 +247,6 @@
     "name": "Mine",
     "category": [
       "Buildings",
-      "Resource Production",
       "Progression Buildings"
     ],
     "progression": true
@@ -260,7 +256,6 @@
     "name": "Quarry",
     "category": [
       "Buildings",
-      "Resource Production",
       "Progression Buildings"
     ],
     "progression": true
