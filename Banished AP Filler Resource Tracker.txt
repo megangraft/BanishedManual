@@ -1,0 +1,15 @@
+Banished AP Filler Resource Tracker
+
+Use this template to track how many of each filler resource you've redeemed, so that you can always stay in sync with the items you've been sent. Keep track of your town name and timestamp for best results in case you're juggling multiple saves or multiple towns.
+Example use case: you're playing an async, and you boot up your world only to realize you forgot how many of the 5 "1000 Food" items you've already redeemed. Well you can open this sheet and refresh your memory.
+
+Town Name: 
+Town Timestamp: 
+50 Iron: 
+50 Logs: 
+50 Firewood: 
+50 Tools: 
+1000 Food: 
+50 Stone: 
+25 Clothes: 
+4 Citizens: 

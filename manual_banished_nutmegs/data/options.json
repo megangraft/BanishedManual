@@ -139,6 +139,15 @@
             "allow_custom_value": false,
             "group": "Banished Options"
         },
+        "Randomize_Disaster_Relief":{
+            "description": [
+                "Start with Disasters 'On' when creating your town and randomize 4 items that let you disable each disaster via Debug Mod."
+            ],
+            "display_name": "Randomize Disaster Relief",
+            "type": "Toggle",
+            "default": false,
+            "group": "Banished Options"
+        },
         "Randomize_Trades":{
             "description": [
                 "Include locations where you have to trade with the trader, or not. This doesn't affect the 'Make Your First Trade' location."

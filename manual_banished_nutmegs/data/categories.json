@@ -17,9 +17,6 @@
 	"Starting Food Production": {
 		"hidden": true
 	},
-	"Resource Production": {
-		"hidden": true
-	},
 	"Resources": {
 		"hidden": false
 	},
