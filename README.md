@@ -124,6 +124,10 @@ To do:
 - Make compatible with Manual community guidelines
 
 Future ideas:
+- Decide how to handle situations where a pasture becomes infested and all the animals die
+  - Let the player add new animals to a new pasture
+  - Let the player trade for that animal
+  - Can't just let the player take the loss, there would be no way to chase those checks
 - YAML setting to include Orchard in logic as a source of logs
 - YAML setting to control filler resources
   - Going back and forth on whether to force a balanced spread of the 8 filler resources, or let the the world gen several "Resource of Choice" filler
