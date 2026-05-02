@@ -117,6 +117,7 @@ I reached 50 Population, but that check isn't in logic yet. Why?
 
 # To-do's and future ideas
 To do:
+- Fix disaster relief toggle (it didnt work when I disabled it - still saw those items)
 - setup.en
 - other docs/
 - Sort locations so things show up cleaner in the Spoiler text
