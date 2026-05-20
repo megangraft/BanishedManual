@@ -53,19 +53,11 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     location_names_to_remove: list[str] = [] # List of location names
 
-    randomize_disasters = get_option_value(multiworld, player, "Randomize_Disaster_Relief")
     randomize_trades = get_option_value(multiworld, player, "Randomize_Trades")
     max_seed_trades = get_option_value(multiworld, player, "Max_Seed_Trades")
     max_livestock_trades = get_option_value(multiworld, player, "Max_Livestock_Trades")
     win_con = get_option_value(multiworld, player, "goal")
     start_difficulty = get_option_value(multiworld, player, "Start_Difficulty")
-
-    # if not randomizing disaster relief, removes all items in the Progressive Difficulty category
-    if not randomize_disasters:
-        location_names_to_remove.extend([
-            name for name, l in world.location_name_to_location.items()
-                if "Progressive Difficulty" in l.get('category', [])
-        ])
 
     # if not randomizing trades, removes all locations in the Trades category
     # if randomizing trades, removes all locations beyond the number of locations specified in max trades options
@@ -148,6 +140,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     start_wood_cutter = get_option_value(multiworld, player, "Start_Wood_Cutter")
     start_blacksmith = get_option_value(multiworld, player, "Start_Blacksmith")
     start_difficulty = get_option_value(multiworld, player, "Start_Difficulty")
+    randomize_disasters = get_option_value(multiworld, player, "Randomize_Disaster_Relief")
 
     starting_item_names = []
 
@@ -272,6 +265,13 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     if start_difficulty == 0:
         starting_item_names.extend(["Sheep", "Pasture"])
+
+    # if not randomizing disaster relief, removes all items in the Progressive Difficulty category
+    if not randomize_disasters:
+        starting_item_names.extend([
+            name for name, i in world.item_name_to_item.items()
+                if "Progressive Difficulty" in i.get('category', [])
+        ])
 
     items_to_remove = [
         i for i in item_pool 
