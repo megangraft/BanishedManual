@@ -124,6 +124,7 @@ To do:
 - Make compatible with Manual community guidelines
 
 Future ideas:
+- Cemetery-related check (have 1 grave in a cemetery? fill a cemetery?)
 - Decide how to handle situations where a pasture becomes infested and all the animals die
   - Let the player add new animals to a new pasture
   - Let the player trade for that animal
