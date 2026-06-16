@@ -5,7 +5,7 @@ AP World and template YAML for manual Archipelago randomizer of Banished, a 2014
 - This repo is a work in progress! Scroll to the bottom of this readme for a list of todo's and ideas for the future.
 
 # Setup Guide
-See [setup guide] (I haven't written it yet)
+See [setup guide](https://github.com/megangraft/BanishedManual/blob/main/setup_guide)
 
 # Goals
 Achieve victory by hitting these total town population counts (adults + students + children). These time estimates are based on in-game Hard difficulty at 10x speed: any of these can be made more relaxed/shorter by starting on Easy or Medium difficulty.
@@ -65,7 +65,7 @@ Filler Resources
   - Tools: 50
   - Citizens: 4
 - Caution! If you redeem resources from Debug Mod without adequate storage space, you won't get the full amount. Logs/Stone/Firewood/Iron can be redeemed into Stock Piles. Food/Tools/Clothes can be redeemed into the starting Storage Cart or Storage Barns. Citizens can be redeemed immediately.
-- Use the handy "Banished AP Filler Resource Tracker" template included in this repo to track how many of each filler item you've already redeemed in your town save
+- Use the handy [Banished AP Filler Resource Tracker](https://github.com/megangraft/BanishedManual/blob/main/Banished%20AP%20Filler%20Resource%20Tracker.txt) template included in this repo to track how many of each filler item you've already redeemed in your town save
 
 Seeds
 - Use Debug Mod to "make all crop/orchard seeds available to player" (but don't use them until they've been sent to you, of course)
