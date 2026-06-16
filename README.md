@@ -114,11 +114,7 @@ I reached 50 Population, but that check isn't in logic yet. Why?
 
 # To-do's and future ideas
 To do:
-- setup.en
-- other docs/
 - Sort locations so things show up cleaner in the Spoiler text
-- Add releases
-- Make compatible with Manual community guidelines
 
 Future ideas:
 - Cemetery-related check (have 1 grave in a cemetery? fill a cemetery?)
