@@ -1,8 +1,5 @@
 # Banished Manual
-AP World and template YAML for manual Archipelago randomizer of Banished, a 2014 colony survival sim game
-
-# Preface
-- This repo is a work in progress! Scroll to the bottom of this readme for a list of todo's and ideas for the future.
+AP World and template YAML for manual Archipelago randomizer of Banished, a 2014 colony survival sim game. Scroll to the bottom of this readme for a list of todo's and ideas for the future.
 
 # Setup Guide
 See [setup guide](https://github.com/megangraft/BanishedManual/blob/main/setup_guide)
@@ -129,7 +126,7 @@ Future ideas:
   - Let the player add new animals to a new pasture
   - Let the player trade for that animal
   - Can't just let the player take the loss, there would be no way to chase those checks
-- YAML setting to include Orchard in logic as a source of logs
+- YAML setting to include Orchard in logic as a source of logs (also consider removing Bridge as an alternative to Forester for midgame logic gate). Could just replace this with event "can replenish wood"
 - YAML setting to control filler resources
   - Going back and forth on whether to force a balanced spread of the 8 filler resources, or let the the world gen several "Resource of Choice" filler
   - We could let the player decide with YAML options:
