@@ -17,8 +17,8 @@ How to set up and play a Banished manual Archipelago. For more general setup inf
 4. From the Archipelago Launcher, open "Generate". You will get a console popup. After it completes, find the generated game in your Archipelago/output folder
 5. Upload the generated game to archipelago.gg/uploads to host it on the website, or, extract the output zip file and run the Archipelago Server Data file to host it locally
 6. From the Archipelago Launcher, open "Manual Client" (you may need to scroll down). Enter your server and port info in the bar at the top. If my player name is Glenwoody and port is 50000, this is what it should look like:
-   * Hosting on the website: Glenwoody:None@archipelago.gg:50000
-   * Hosting locally: Glenwoody:None@localhost:50000 (you can find your localhost port number on the console window running the Archipelago Server)
+   * Hosting on the website: `Glenwoody:None@archipelago.gg:50000`
+   * Hosting locally: `Glenwoody:None@localhost:50000` (you can find your localhost port number on the console window running the Archipelago Server)
 7. In the Manual Client, make sure your "Manual Game ID" is set to "Manual_Banished_Nutmegs." It should show up as an option in a drop down menu. If not, type that in. Then click "Connect".
 8. Once connected, go to the Manual tab, then boot your game. From the Banished main menu, open the "Mods" option, then tab to "Browse Workshop" and search for "Debug Menu." Subscribe to the Debug Menu mod. Tab back to "Installed Mods" and make sure that Debug Menu is set to "Enable."
    * When you start your game, a new option "Show debug options" should be available in the Tools and Reports menu. This is how you will redeem certain AP items like livestock, crop/orchard seeds, and filler resources.
