@@ -8,7 +8,7 @@ How to set up and play a Banished manual Archipelago. For more general setup inf
 - A legal copy of Banished by Shining Rock Software (heads up - the AP world has only been tested for Banished on Steam)
 
 ## Instructions:
-1. Download manual_banished_nutmegs.apworld from the [releases page]([link TODO](https://github.com/megangraft/BanishedManual/releases/tag/Latest)) and save it in your Archipelago/custom_worlds folder
+1. Download manual_banished_nutmegs.apworld from the [releases page](https://github.com/megangraft/BanishedManual/releases/tag/Latest) and save it in your Archipelago/custom_worlds folder
 2. Create your Banished YAML. You have a few options for this:
    * From the Archipelago Launcher, open "Options Creator." Find "Manual Banished Nutmegs" in the leftside menu, then fill out your options in the UI. Add your player name at the top then click "Export Options."
    * From the Archipelago Launcher, open "Generate Template Options" to generate a default YAML, and edit the options to your liking.
