@@ -2,7 +2,7 @@
 AP World and template YAML for manual Archipelago randomizer of Banished, a 2014 colony survival sim game. Scroll to the bottom of this readme for a list of todo's and ideas for the future.
 
 # Setup Guide
-See [setup guide](https://github.com/megangraft/BanishedManual/blob/main/setup_guide)
+See [setup guide](https://github.com/megangraft/BanishedManual/blob/main/setup_guide.md)
 
 # Goals
 Achieve victory by hitting these total town population counts (adults + students + children). These time estimates are based on in-game Hard difficulty at 10x speed: any of these can be made more relaxed/shorter by starting on Easy or Medium difficulty.
